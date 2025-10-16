@@ -1,10 +1,8 @@
 # 🧠 Personality Model Predictor
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url.com) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 A Machine Learning project that predicts personality traits based on user inputs, featuring a user-friendly web interface built with Streamlit.
 
-![Screenshot of App Interface](path/to/your/screenshot.png) ## 📜 Description
+## 📜 Description
 
 This project aims to predict an individual's personality type (e.g., based on the Big Five or Myers-Briggs model) using machine learning. The model is trained on a dataset of personality survey responses. The interactive web application, built with **Streamlit**, allows users to input their data and receive a real-time personality prediction.
 
@@ -60,7 +58,6 @@ Follow these instructions to set up and run the project on your local machine.
         ```
 
 3.  **Install the required dependencies:**
-    *(Note: If the `requirements.txt` file is not present, you can generate it by running `pip freeze > requirements.txt` within your activated virtual environment after installing the necessary packages.)*
     ```bash
     pip install -r requirements.txt
     ```
@@ -68,7 +65,6 @@ Follow these instructions to set up and run the project on your local machine.
 ### Usage
 
 1.  **Launch the Streamlit app:**
-    *(Replace `app.py` with the name of your main Streamlit script if it's different.)*
     ```bash
     streamlit run app2.py
     ```
@@ -84,7 +80,7 @@ Follow these instructions to set up and run the project on your local machine.
 ├── 📄 .gitignore
 ├── 🚀 app2.py                # Main Streamlit application script
 ├── 📓 model_training.ipynb   # Jupyter Notebook for EDA and model building
-├── 📦 model.pkl              # Saved/pickled trained model file
+├── 📦 mdl.pkl              # Saved/pickled trained model file
 ├── 📜 README.md
 ├── 📋 requirements.txt        # List of Python dependencies
 └── 📊 data/
