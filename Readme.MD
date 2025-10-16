@@ -58,7 +58,6 @@ Follow these instructions to set up and run the project on your local machine.
         ```
 
 3.  **Install the required dependencies:**
-    *(Note: If the `requirements.txt` file is not present, you can generate it by running `pip freeze > requirements.txt` within your activated virtual environment after installing the necessary packages.)*
     ```bash
     pip install -r requirements.txt
     ```
@@ -66,7 +65,6 @@ Follow these instructions to set up and run the project on your local machine.
 ### Usage
 
 1.  **Launch the Streamlit app:**
-    *(Replace `app.py` with the name of your main Streamlit script if it's different.)*
     ```bash
     streamlit run app2.py
     ```
