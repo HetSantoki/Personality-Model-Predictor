@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 import pickle 
 import seaborn as sns
 import matplotlib.pyplot as plt
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score,precision_score, recall_score
 
 
 df = pd.read_csv("pd.csv")
@@ -32,7 +32,12 @@ model.fit(X_train, y_train)
 
 pred = model.predict(X_test)
 accuracy = accuracy_score(pred,y_test)
-print(accuracy)
+print("accuracy : " + str(accuracy))
+precision = precision_score(pred,y_test)
+print("precision: " + str(precision))
+recall = recall_score(pred,y_test)
+print("recall : " + str(recall))
+
 # with open("personality_model.pkl", "wb") as f:
 #     pickle.dump(model, f)
 
