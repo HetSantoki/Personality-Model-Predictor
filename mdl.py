@@ -37,7 +37,3 @@ precision = precision_score(pred,y_test)
 print("precision: " + str(precision))
 recall = recall_score(pred,y_test)
 print("recall : " + str(recall))
-
-# with open("personality_model.pkl", "wb") as f:
-#     pickle.dump(model, f)
-
